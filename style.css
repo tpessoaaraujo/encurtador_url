@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --background-color: #2b2b2b;
+    --green: #1db954;
+    --dark-green: #248847;
+    --font-color: #f1f1f1;
+    --font-color-transparent: #f1f1f175;
+}
+
+html {
+    font-size: 10px; /*10px = 1rem*/
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    color: var(--font-color);
+    background-color: var(--background-color);
+    font-size: 1.6rem;
+}
+
+main {
+    background-color: var(--background-color);
+    border-radius: 1.6rem;
+    padding: 2rem;
+    border: .2rem solid var(--green);
+    text-align: center;
+    min-width: 40rem;
+}
+
+main i {
+    font-size: 10rem;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+}
+
+label {
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 1rem 0;
+    display: block;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: .8rem;
+    margin-bottom: 1.5rem;
+    border: .2rem solid var(--green);
+    border-radius: .5rem;
+    font-size: 1.4rem;
+    color: var(--font-color);
+    background-color: transparent;
+    font-weight: 500;
+}
+
+input::placeholder {
+    color: var(--font-color-transparent);
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+button {
+    width: 100%;
+    color: var(--font-color);
+    background-color: var(--green);
+    border-radius: .5rem;
+    border: .2rem solid var(--green);
+    padding: .8rem;
+    font-weight: 500;
+    transition: all .3s ease;
+}
+
+button:hover {
+    background-color: var(--dark-green);
+    border: .2rem solid var(--dark-green);
+    cursor: pointer;
+}
+
+textarea {
+    resize: none;
+}

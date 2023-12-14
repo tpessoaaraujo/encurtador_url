@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Metadados -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Thiago Pessoa Araujo">
+    <meta name="description" content="Um encurtador de url simples, leve e rápido.">
+    <!-- Links externos -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Links internos -->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <!-- Título -->
+    <title>Encurtador de URL</title>
+</head>
+<body>
+    <main>
+        <i class="bx bx-link-alt"></i>
+        <h1>Encurtador de URL</h1>
+        <label for="originalUrl">URL Original</label>
+        <input type="text" id="originalUrl" placeholder="https://exemplo.com">
+        <section class="buttons">
+            <button id="reload-btn">Recarregar</button>
+            <button id="short-btn">Encurtar</button>
+        </section>
+        <label for="shortenedUrl"> URL encurtada:</label>
+        <textarea id="shortenedUrl" rows="3" readonly></textarea>
+    </main>
+</body>
+</html>
