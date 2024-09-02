@@ -7,10 +7,10 @@
 }
 
 :root {
-    --background-color: #2b2b2b;
-    --green: #1db954;
-    --dark-green: #248847;
-    --font-color: #f1f1f1;
+    --background-color: #1b263b;
+    --primary-color: #778da9;
+    --secondary-color: #415a77;
+    --font-color: #e0e1dd;
     --font-color-transparent: #f1f1f175;
 }
 
@@ -25,7 +25,7 @@ body {
     min-height: 100vh;
     width: 100%;
     color: var(--font-color);
-    background-color: #252321;
+    background-color: #0d1b2a;
     font-size: 1.6rem;
 }
 
@@ -33,7 +33,7 @@ main {
     background-color: var(--background-color);
     border-radius: 1.6rem;
     padding: 2rem;
-    border: .2rem solid var(--green);
+    border: .2rem solid var(--primary-color);
     text-align: center;
     min-width: 40rem;
 }
@@ -61,7 +61,7 @@ textarea {
     width: 100%;
     padding: .8rem;
     margin-bottom: 1.5rem;
-    border: .2rem solid var(--green);
+    border: .2rem solid var(--primary-color);
     border-radius: .5rem;
     font-size: 1.4rem;
     color: var(--font-color);
@@ -81,17 +81,17 @@ input::placeholder {
 button {
     width: 100%;
     color: var(--font-color);
-    background-color: var(--green);
+    background-color: var(--primary-color);
     border-radius: .5rem;
-    border: .2rem solid var(--green);
+    border: .2rem solid var(--primary-color);
     padding: .8rem;
     font-weight: 500;
     transition: all .3s ease;
 }
 
 button:hover {
-    background-color: var(--dark-green);
-    border: .2rem solid var(--dark-green);
+    background-color: var(--secondary-color);
+    border: .2rem solid var(--secondary-color);
     cursor: pointer;
 }
 
